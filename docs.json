@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "23 TURTLES",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -18,18 +18,25 @@
             "pages": [
               "introduction",
               "quickstart",
-              "development"
+              "turtle-legacy"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Core Concepts",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "core-concepts/overview",
+              "core-concepts/sand-system",
+              "core-concepts/agent-architecture",
+              "core-concepts/governance",
+              "core-concepts/tokenomics"
+            ]
+          },
+          {
+            "group": "Protocol",
+            "pages": [
+              "protocol/overview",
+              "protocol/solana-implementation",
+              "protocol/cross-chain-expansion"
             ]
           }
         ]
@@ -44,11 +51,38 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "S.A.N.D. API",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "api-reference/sand/sentiment",
+              "api-reference/sand/alpha",
+              "api-reference/sand/narrative",
+              "api-reference/sand/data"
+            ]
+          },
+          {
+            "group": "Agent API",
+            "pages": [
+              "api-reference/agent/deployment",
+              "api-reference/agent/monitoring",
+              "api-reference/agent/performance"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Whitepaper",
+        "groups": [
+          {
+            "group": "23 TURTLES Whitepaper",
+            "pages": [
+              "whitepaper/executive-summary",
+              "whitepaper/introduction",
+              "whitepaper/problem-statement",
+              "whitepaper/solution",
+              "whitepaper/technical-architecture",
+              "whitepaper/tokenomics",
+              "whitepaper/governance",
+              "whitepaper/roadmap"
             ]
           }
         ]
@@ -57,19 +91,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Official Site",
+          "href": "https://23turtles.io",
+          "icon": "globe-alt"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://discord.gg/23turtles",
+          "icon": "discord"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Twitter",
+          "href": "https://twitter.com/23Turtles",
+          "icon": "twitter"
         }
       ]
     }
@@ -82,20 +116,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@23turtles.io"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://app.23turtles.io"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/23Turtles",
+      "github": "https://github.com/23turtles",
+      "discord": "https://discord.gg/23turtles"
     }
   }
 }
